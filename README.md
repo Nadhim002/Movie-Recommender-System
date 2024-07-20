@@ -6,6 +6,9 @@ The Movie Recommender System is a machine learning project that provides persona
 
 ![image](https://github.com/user-attachments/assets/045d705c-4c76-4176-89e3-c5073c8744ca)
 
-Dataset
+Dataset :
 
 The dataset used for training and evaluation is sourced from the [Tmdb Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) . It includes information about movies, user ratings, and user demographics.
+
+Data preprocessing :
+
