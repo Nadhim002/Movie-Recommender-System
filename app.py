@@ -3,8 +3,10 @@ import pickle
 import  requests
 
 def fetch_poster(movie_id):
-    api_key = '8265bd1679663a7ea12ac168da84d2e8'  # Campus_X
-   # api_key = '60f63a51728377d2f9660540cf8c0fba' # nadhim
+    #api_key = '8265bd1679663a7ea12ac168da84d2e8'  # key1
+    api_key = '60f63a51728377d2f9660540cf8c0fba' # key2
+
+    # Use our own api key
     url = "https://api.themoviedb.org/3/movie/{}?api_key={}&language=en-US".format(movie_id,api_key)
     data = requests.get(url)
     data = data.json()
